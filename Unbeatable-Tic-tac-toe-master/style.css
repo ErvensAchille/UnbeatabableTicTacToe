@@ -1,0 +1,35 @@
+.container {
+  display: flex;
+  width: 400px;
+  font-size: 40px;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  margin-top: 5%;
+  justify-content: center;
+}
+h1 {
+  text-align: center;
+  min-width: 1000px;
+}
+.box {
+  box-sizing: border-box;
+  width: 33.33%;
+  text-align: center;
+  border: 1px solid black;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  cursor: pointer;
+}
+.box:hover {
+  background-color: lightgrey;
+}
+.reset {
+  margin-top: 20px;
+  padding: 2%;
+  font-size: 20px;
+  background: transparent;
+  outline: 0;
+  cursor: pointer;
+}
